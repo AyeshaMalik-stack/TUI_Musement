@@ -1,6 +1,9 @@
 Name:Ayesha Malik
-Tool used:visual studio 2019 console application
-To build and run the sample, type the following command: dotnet run
+Tool used:visual studio 2019 console application.
+Requirement:.NET SDK 6.0 or later
+A code editor such as Visual Studio Code, which is an open source, cross platform editor can also be used.
+To build and run the sample, type the following command in vs code: dotnet run
 Get weatherApikey from weatherapi.com that is valid for 15 days,
 if api key gets expired than weatherApiUrl will not process to get the forecast for a city.
 In that case Create your own account to get a new key.
+
