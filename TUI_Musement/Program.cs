@@ -16,7 +16,7 @@ namespace TUI_Musement
         private static readonly HttpClient client = new HttpClient();
         private static string tui_Api_Url = "https://api.musement.com/api/v3/cities";
         //Get weather api key from weatherapi.com
-        private static string weatherApiUrl = "https://api.weatherapi.com/v1/forecast.json?key=9810cabb46e14d7c95d85310221009&q=";
+        private static string weatherApiUrl = "https://api.weatherapi.com/v1/forecast.json?key=4ed08cc4d75b4c2db81165557222409&q=";
 
 
         static async Task Main(string[] args)
