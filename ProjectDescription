@@ -1,4 +1,0 @@
-Its a console application in which we Make HTTP requests in a .NET console app hat istsues HTTP requests to a REST service.
-The app reads information in JSON format and converts the JSON into C# objects.
-Converting from JSON to C# objects is known as deserialization.
-Use the HttpClient class to make HTTP requests. HttpClient supports only async methods for its long-running APIs.

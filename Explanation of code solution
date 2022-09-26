@@ -1,0 +1,11 @@
+Its a console application in which we Make HTTP requests in a .NET console app that issues HTTP requests to a REST service.
+The app reads information in JSON format and converts the JSON into C# objects.
+Converting from JSON to C# objects is known as deserialization.
+Use the HttpClient class to make HTTP requests. HttpClient supports only async methods for its long-running APIs.
+with the help of given endpoint GET /api/v3/cities,it is used to Return list of cities where TUI Musement has activities to sell in getCitiesFromTUIApi()
+The result gives us the names of cities,which is used to show the weather forecast of each city one by one using showWeather(List<cities>);
+ShowWeather() loop city one by one to send it to another function named processWeatherForCity(CityName);
+processWeatherForCity(CityName) then used weather api to get the weatherforecast of the given city and then the responce object is populated to get the weather of current day and next day.
+The weather forecast for each city is then displayed aynchronously.
+
+
